@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "ETED JOCUM João Pessoa — Conhecer a Deus e fazê-lo conhecido",
+      "hasCanvas": false,
+      "bodyTextLen": 4444,
+      "bodyTextHash": "ecbf0abe66586d7a50b227171842ada64cf0aa92a7d16bd4a77546351d05f096",
+      "bodyTextPrefix": "Pular para o conteúdo JOCUM JOÃO PESSOA ETED Início Sobre a ETED",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "ETED JOCUM João Pessoa — Conhecer a Deus e fazê-lo conhecido",
+      "hasCanvas": false,
+      "bodyTextLen": 4453,
+      "bodyTextHash": "ce0bae2d9d29ad81d5703d878d997ed13a02dd08af94a0abd4c9ac2ac30ac234",
+      "bodyTextPrefix": "Pular para o conteúdo JOCUM JOÃO PESSOA ETED Início Sobre a ETED",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

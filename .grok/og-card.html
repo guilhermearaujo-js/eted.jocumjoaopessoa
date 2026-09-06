@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    @font-face {
+      font-family: "Cormorant Garamond";
+      src: url("./fonts/CormorantGaramond-Bold.ttf") format("truetype");
+      font-weight: 700;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Cormorant Garamond";
+      src: url("./fonts/CormorantGaramond-Italic.ttf") format("truetype");
+      font-weight: 500;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Outfit";
+      src: url("./fonts/Outfit-Medium.ttf") format("truetype");
+      font-weight: 500;
+      font-style: normal;
+    }
+    html, body {
+      margin: 0;
+      width: 1200px;
+      height: 630px;
+      overflow: hidden;
+      background: #0A4D68;
+    }
+    .stage {
+      position: relative;
+      width: 1200px;
+      height: 630px;
+      background: #0A4D68 url("./og-bg.jpg") center 42% / cover no-repeat;
+    }
+    .veil {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 50% 46%, rgba(10, 77, 104, 0.22) 0%, rgba(8, 38, 54, 0.52) 72%),
+        linear-gradient(180deg, rgba(10, 77, 104, 0.30) 0%, rgba(10, 77, 104, 0.44) 42%, rgba(8, 36, 50, 0.78) 100%);
+    }
+    .lockup {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 720px;
+      text-align: center;
+      color: #F7F3EA;
+    }
+    .mark {
+      width: 28px;
+      height: 34px;
+      margin: 0 auto 14px;
+      display: block;
+    }
+    .eyebrow {
+      font-family: Outfit, sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+      letter-spacing: 0.34em;
+      text-transform: uppercase;
+      color: #C4A35A;
+      margin: 0 0 16px;
+    }
+    .rule {
+      width: 88px;
+      height: 1px;
+      margin: 0 auto;
+      background: #C4A35A;
+      opacity: 0.85;
+    }
+    h1 {
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 700;
+      font-size: 86px;
+      line-height: 0.92;
+      letter-spacing: 0.045em;
+      margin: 18px 0 6px;
+      color: #F7F3EA;
+      text-shadow: 0 2px 22px rgba(8, 36, 50, 0.55);
+    }
+    h2 {
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 38px;
+      line-height: 1.1;
+      letter-spacing: 0.08em;
+      margin: 0 0 18px;
+      color: #C4A35A;
+      text-shadow: 0 2px 16px rgba(8, 36, 50, 0.45);
+    }
+    .motto {
+      font-family: Outfit, sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      letter-spacing: 0.12em;
+      color: #F7F3EA;
+      opacity: 0.88;
+      margin: 16px 0 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="stage">
+    <div class="veil"></div>
+    <div class="lockup">
+      <svg class="mark" viewBox="0 0 24 30" aria-hidden="true">
+        <rect x="11.1" y="0.4" width="1.8" height="4.6" rx="0.4" fill="#C4A35A"/>
+        <rect x="9.3" y="1.6" width="5.4" height="1.7" rx="0.4" fill="#C4A35A"/>
+        <rect x="8.6" y="5.4" width="6.8" height="5.2" rx="0.5" fill="#C4A35A"/>
+        <rect x="9.5" y="6.2" width="5" height="3.6" fill="#F7F3EA"/>
+        <path d="M8.4 11.2h7.2L17.8 28H6.2z" fill="#F7F3EA"/>
+        <rect x="10.7" y="21.4" width="2.6" height="6.4" rx="1.1" fill="#0A4D68"/>
+      </svg>
+      <p class="eyebrow">Escola de Treinamento e Discipulado</p>
+      <div class="rule"></div>
+      <h1>ETED JOCUM</h1>
+      <h2>João Pessoa</h2>
+      <div class="rule"></div>
+      <p class="motto">Conhecer a Deus e fazê-lo conhecido</p>
+    </div>
+  </div>
+</body>
+</html>
